@@ -1,0 +1,117 @@
+.contact-form-container{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+    gap: 20px;
+}
+.form-text{
+    width: 40%;
+    text-align: center;
+}
+.form-text > h2 {
+    color: #000000;
+}
+.form-text > p {
+    color: #9F9F9F;
+}
+.contact-form{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: cornflowerblue; */
+}
+.contact-form-text{
+    display: flex;
+    gap: 12px;
+}
+.form-left{
+    width: 25%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 12px;
+    /* background-color: aquamarine; */
+}
+.form-right{
+    width: 55%;
+    /* background-color: #9F9F9F; */
+}
+.input-name-div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    & > input:focus + label,
+    & > textarea:focus + label{
+        top: -10px;
+        font-size: 14px;
+        color: #3A3A3A;
+    }
+    & > input:disabled + label,
+    & > textarea:disabled + label{
+        color: #9F9F9F;
+    }
+    & > input:focus,
+    & > textarea:focus{
+        border: 1px solid #3A3A3A;
+        box-shadow: 0 0 5px #3A3A3A;
+    }
+    & > input:disabled,
+    & > textarea
+    & textarea:disabled{
+        background-color: #E6E6E6;
+        cursor: not-allowed;
+    }
+    & > label + p{
+        color: #9F9F9F;
+        font-size: 14px;
+    }
+}
+.input-name-div > input{
+    width: 80%;
+    height: 75px;
+    border-radius: 10px;
+
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    background-color: #FFFFFF;
+    &:focus{
+        border: 1px solid #3A3A3A;
+        box-shadow: 0 0 5px #3A3A3A;
+    }
+    &:disabled{
+        background-color: #E6E6E6;
+        cursor: not-allowed;
+    }
+    &:placeholder-shown + label{
+        top: -10px;
+        font-size: 14px;
+        color: #9F9F9F;
+    }
+    &.error-message{
+        color: red;
+        font-size: 12px;
+    }
+
+}
+.input-name-div > textarea{
+    border: 1px solid #474747;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+
+
+
+}

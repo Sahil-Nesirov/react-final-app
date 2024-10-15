@@ -1,0 +1,33 @@
+.shop-icons{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    background-color: #FAF3EA;
+    padding: 25px;
+    margin-top: 50px;
+}
+.icons-icon-text{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 12px;
+    /* background-color: aqua; */
+}
+.image-icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100px;
+    height: 55px;
+    /* background-color: blue; */
+}
+.icon-text{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

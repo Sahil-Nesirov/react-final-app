@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+    /* background-color: #f1f1f1; */
+}
+.customMenu{
+    /* background-color: blue; */
+}

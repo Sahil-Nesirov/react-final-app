@@ -1,0 +1,124 @@
+.shop-filter-menu{
+    width: 100%;
+    background-color: #9F9F9F;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+.filter-icon-text{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.shop-filter-left{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.shop-filter-right{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+#input-show{
+    width: 55px;
+    height: 55px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+#input-sortby{
+    width: 120px;
+    height: 55px;
+    background-color: #FFFFFF;
+
+}
+.input-sortby-p,
+.input-show-p {
+    margin-bottom: 5px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+ .shop-products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .shop-products-list .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card .info {
+    margin-top: 10px;
+  }
+  
+  .card .info h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .card .info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card .info .price {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination .active {
+    background-color: #333;
+    color: #fff;
+    cursor: default;
+  }
+  
+  .pagination span {
+    padding: 8px 12px;
+  }
+  
